@@ -3,14 +3,14 @@ import Pa from "./Pa";
 import Uncle from "./Uncle";
 import Aunt from "./Aunt";
 
-const GrandPa = () => {
+const GrandPa = ({ asset }) => {
   return (
     <div>
       <h2>GrandPa</h2>
       <section className="flex">
-        <Pa></Pa>
+        <Pa asset={asset}></Pa>
         <Uncle></Uncle>
-        <Aunt></Aunt>
+        <Aunt asset={asset}></Aunt>
       </section>
     </div>
   );
