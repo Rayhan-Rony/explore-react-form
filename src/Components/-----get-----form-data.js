@@ -5,3 +5,4 @@
 // 3.handle all controlled field in a single state with object
 // const [FormData,setFormData]=useState({name:"",password:"",phone:""})
 // 4. uncontrolled with  useRef hook
+// 5. using custom hook for code duplicate reduce
